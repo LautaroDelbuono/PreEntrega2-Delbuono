@@ -1,0 +1,130 @@
+
+/*Aplicacion de fuente y color de fondo*/
+*{
+    font-family: 'Lato', sans-serif;
+    background-color: #ece2c6;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+/*INICIO HEADER*/
+.logobaires{
+    width: 20rem;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    /*Display flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+header h1{
+    font-size: 4rem;
+}
+
+header p{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header nav ul li a{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.5rem
+}
+/*Inicio Portadas*/
+.portadas{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.portadas img{
+    height: 650px;
+    width: 450px;
+    padding: 3px;
+    background-color: black;
+}
+.portadas nav ul li{
+    list-style-type: none;
+}
+
+.portadas nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+/*Final portadas*/
+
+/*Inicio Promo*/
+.promo{
+    font-size: 1.5rem;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+/*Final promo*/
+
+/*Inicio info*/
+.informacion{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.informacion p{
+    font-size: 1.5rem;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.informacion img{
+    width: 250px;
+    height: 450x;
+    margin-left: 150px;
+}
+/*Final info*/
+
+/*Inicio pag prod*/
+.paginasproductos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.paginasproductos img{
+    width: 450px;
+    height: 650;
+    padding: 3px;
+    background-color: black;
+}
+
+/*Inicio Footer*/
+footer{
+    font-size: 1.5rem;
+    display: flex;
+    border-top: 1px solid gray;
+    justify-content: space-around;
+    background-color: #f1e4c1;
+}
+footer ul{
+    list-style-type: none;
+}
+footer nav ul li a{
+    margin: 5px;
+    text-decoration: none
+}
+/*Final footer*/
