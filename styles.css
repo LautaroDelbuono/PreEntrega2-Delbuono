@@ -117,7 +117,7 @@ header nav ul li a{
     display: flex;
     padding-bottom: 15px;
     justify-content: space-around;
-}
+    background-color: aqua;}
 
 /*Inicio Footer*/
 footer{
@@ -125,7 +125,6 @@ footer{
     display: flex;
     border-top: 1px solid gray;
     justify-content: space-around;
-    background-color: #f1e4c1;
 }
 footer ul{
     list-style-type: none;
