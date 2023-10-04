@@ -112,6 +112,12 @@ header nav ul li a{
     background-color: black;
 }
 
+.paginasproductos p{
+    font-size: 1.5rem;
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-around;
+}
 
 /*Inicio Footer*/
 footer{
