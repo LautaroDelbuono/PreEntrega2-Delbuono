@@ -70,15 +70,6 @@ header nav ul li a{
 }
 /*Final portadas*/
 
-/*Inicio Promo*/
-.promo{
-    font-size: 1.5rem;
-    display: flex;
-    padding: 30px;
-    justify-content: center;
-}
-/*Final promo*/
-
 /*Inicio info*/
 .informacion{
     padding: 25px;
