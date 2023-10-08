@@ -121,12 +121,15 @@ header nav ul li a{
 
 
 /*Inicio ubicacion*/
-.mapas{
-    font-size: 1rem;
-    display: flex;
-    text-align: center;
-    padding: 5rem;
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
+
+.parrafo{
+    font-size: 2rem;
+    text-align: center;}
 /*Final ubicacion*/
 
 /*Inicio Footer*/
