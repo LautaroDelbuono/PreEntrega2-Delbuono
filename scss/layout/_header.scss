@@ -1,15 +1,10 @@
-/*INICIO HEADER*/
-.logobaires{
-    width: 20rem;
-}
-
 header{
     border-bottom: 1px solid gray;
     /*Display flex*/
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;}
+    padding: 15px;
 
     h1{
         font-size: 4rem;
@@ -36,3 +31,5 @@ header{
             }
         }
     }
+
+}
