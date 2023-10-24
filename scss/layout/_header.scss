@@ -1,0 +1,38 @@
+/*INICIO HEADER*/
+.logobaires{
+    width: 20rem;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    /*Display flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;}
+
+    h1{
+        font-size: 4rem;
+        }
+
+    p{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+  
+    nav{
+        ul{
+            li{
+                a{
+                    margin: 5px;
+                    text-decoration: none;
+                    font-size: 1.5rem
+                }
+            }
+        }
+    }

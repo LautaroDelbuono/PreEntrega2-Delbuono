@@ -1,0 +1,13 @@
+.portadas{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+        img{
+            height: 650px;
+            width: 450px;
+            padding: 3px;
+            background-color: black;
+        }
+}
