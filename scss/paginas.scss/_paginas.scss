@@ -1,0 +1,34 @@
+.paginasproductos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    img{
+        width: 550px;
+        height: 750px;
+        padding: 4px;
+        background-color: black;
+    }
+
+    p{
+        font-size: 1.5rem;
+        display: flex;
+        padding-bottom: 15px;
+        justify-content: space-around;
+    }
+}
+
+
+//Ubicacion
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.parrafo{
+    font-size: 2rem;
+    text-align: center;
+}
