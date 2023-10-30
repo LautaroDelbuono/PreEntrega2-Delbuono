@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    border-top: 1px solid gray;
+    justify-content: space-around;
+
+    ul{
+        list-style-type: none;
+    }
+
+    nav{
+        ul{
+            li{
+                a{
+                    margin: 5px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -68,16 +68,23 @@ header nav ul li a {
   justify-content: center;
 }
 
-.informacion p {
+.informacion div p {
   font-size: 1.5rem;
   display: flex;
   padding: 20px;
   justify-content: center;
 }
-.informacion p img {
-  width: 25px;
-  height: 45x;
+.informacion div p img {
+  width: 250px;
+  height: 450px;
   margin-left: 150px;
+}
+
+.carrusel {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=styles.css.map */
