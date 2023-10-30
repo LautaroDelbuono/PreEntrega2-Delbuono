@@ -1,16 +1,18 @@
 .informacion{
-        div{
-            p{
-            font-size: 1.5rem;
-            display: flex;
-            padding: 20px;
-            justify-content: center;
-    
-            img{
-                width: 250px;
-                height: 450px;
-                margin-left: 150px;
-            }
-        }
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+    img{
+        height: 400px;
+        width: 300px;
+        padding: 3px;
+    }
+
+    p{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
     }
 }

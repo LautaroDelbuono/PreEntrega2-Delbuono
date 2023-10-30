@@ -66,18 +66,27 @@ header nav ul li a {
   list-style: none;
   display: flex;
   justify-content: center;
+  transition: all 1s;
+}
+.portadas nav ul li a:hover {
+  font-size: 3rem;
 }
 
-.informacion div p {
+.informacion {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.informacion img {
+  height: 400px;
+  width: 300px;
+  padding: 3px;
+}
+.informacion p {
   font-size: 1.5rem;
   display: flex;
-  padding: 20px;
   justify-content: center;
-}
-.informacion div p img {
-  width: 250px;
-  height: 450px;
-  margin-left: 150px;
 }
 
 .carrusel {
@@ -85,6 +94,49 @@ header nav ul li a {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+}
+
+footer {
+  display: flex;
+  border-top: 1.5px solid gray;
+  justify-content: space-around;
+}
+footer ul {
+  list-style-type: none;
+}
+footer nav ul li a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.paginasproductos {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.paginasproductos img {
+  width: 550px;
+  height: 750px;
+  padding: 4px;
+  background-color: black;
+}
+.paginasproductos p {
+  font-size: 1.5rem;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.parrafo {
+  font-size: 2rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
