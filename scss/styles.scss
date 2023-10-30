@@ -1,8 +1,9 @@
 //IMPORTS
 
 //Base
-@import './base/reset';
+@import './base.scss/reset';
 
 //Layout
 @import './layout/header';
 @import './layout/portadas';
+@import './layout/data';
