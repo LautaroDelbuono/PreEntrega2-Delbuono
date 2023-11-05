@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px;
+  padding: 2%;
   transition: all 1s;
 }
 header h1 {
@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 .portadas {
-  padding: 20px;
+  padding: 3%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -79,8 +79,8 @@ header nav ul li a {
   flex-direction: row;
 }
 .informacion img {
-  height: 400px;
-  width: 300px;
+  height: 320px;
+  width: 270px;
   padding: 3px;
 }
 .informacion p {
@@ -90,10 +90,10 @@ header nav ul li a {
 }
 
 .carrusel {
-  width: 100%;
+  width: 80%;
+  padding-left: 17%;
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
 }
 
 footer {
@@ -110,7 +110,7 @@ footer nav ul li a {
 }
 
 .paginasproductos {
-  padding: 20px;
+  padding: 5%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
