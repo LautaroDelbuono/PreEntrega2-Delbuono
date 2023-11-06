@@ -1,18 +1,137 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |             color:$color-titulos
- *    |                   ^^^^^^^^^^^^^^
- *    '
- *   scss\layout\_header.scss 13:19  @import
- *   scss\styles.scss 7:9            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502              color:$color-titulos\d\a    \2502                    ^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\_header.scss 13:19  @import\a   scss\\styles.scss 7:9            root stylesheet";
+/*Aplicacion de fuente y color de fondo*/
+* {
+  font-family: "Lato", sans-serif;
+  background-color: #ece2c6;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
+
+/*INICIO HEADER*/
+.logobaires {
+  width: 20rem;
+}
+
+header {
+  border-bottom: 1px solid gray;
+  /*Display flex*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  transition: all 1s;
+}
+header h1 {
+  font-size: 4rem;
+}
+header h1:hover {
+  color: #a25e2a;
+}
+header p {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+header p:hover {
+  color: #a25e2a;
+}
+header nav ul li a, header nav .portadas ul li a, .portadas header nav ul li a, header .portadas nav ul li a {
+  margin: 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.portadas {
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.portadas img {
+  height: 650px;
+  width: 450px;
+  padding: 3px;
+  background-color: black;
+}
+.portadas nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  transition: all 1s;
+}
+.portadas nav ul li a:hover {
+  font-size: 3rem;
+}
+
+.informacion {
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.informacion img {
+  height: 320px;
+  width: 270px;
+  padding: 3px;
+}
+.informacion p {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel {
+  width: 80%;
+  padding-left: 17%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  border-top: 1.5px solid gray;
+  justify-content: space-around;
+}
+footer nav ul li a, footer nav .portadas ul li a, .portadas footer nav ul li a, footer .portadas nav ul li a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.paginasproductos {
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.paginasproductos img {
+  width: 550px;
+  height: 750px;
+  padding: 4px;
+  background-color: black;
+}
+.paginasproductos p {
+  font-size: 1.5rem;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.parrafo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul, header ul, .portadas ul, footer ul {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

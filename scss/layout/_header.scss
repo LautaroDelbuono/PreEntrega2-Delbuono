@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 header{
     border-bottom: 1px solid gray;
     /*Display flex*/
@@ -25,7 +27,7 @@ header{
     }
 
     ul{
-        list-style-type: none;
+        @extend ul;
     }
   
     nav{
