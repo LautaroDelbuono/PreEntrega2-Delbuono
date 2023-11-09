@@ -1,17 +1,11 @@
-@import '../utilities/variables';
+@import '../utilities/extends';
+
 
 .paginasproductos{
     padding: 5%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
-    img{
-        width: 550px;
-        height: 90%;
-        padding: 4px;
-        background-color: $fondo-negro;
-    }
 
     p{
         font-size: 1.5rem;
