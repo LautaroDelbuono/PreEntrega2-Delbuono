@@ -4,7 +4,7 @@ footer{
     justify-content: space-around;
 
     ul{
-        @extend ul;
+        list-style-type: none;
     }
 
     nav{

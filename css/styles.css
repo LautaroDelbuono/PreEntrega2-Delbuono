@@ -50,7 +50,7 @@ header nav ul li a, header nav .portadas ul li a, .portadas header nav ul li a, 
 }
 .portadas img {
   height: 650px;
-  width: 450px;
+  width: 90%;
   padding: 3px;
   background-color: black;
 }
@@ -74,7 +74,7 @@ header nav ul li a, header nav .portadas ul li a, .portadas header nav ul li a, 
 }
 .informacion img {
   height: 320px;
-  width: 270px;
+  width: 90%;
   padding: 3px;
 }
 .informacion p {
@@ -108,7 +108,7 @@ footer nav ul li a, footer nav .portadas ul li a, .portadas footer nav ul li a, 
 }
 .paginasproductos img {
   width: 550px;
-  height: 750px;
+  height: 90%;
   padding: 4px;
   background-color: black;
 }

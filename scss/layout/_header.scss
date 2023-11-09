@@ -27,7 +27,7 @@ header{
     }
 
     ul{
-        @extend ul;
+        list-style-type: none;
     }
   
     nav{

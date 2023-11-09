@@ -10,13 +10,13 @@
 
         img{
             height: 650px;
-            width: 450px;
+            width: 90%;
             padding: 3px;
             background-color:$fondo-negro;
         }
 
         ul{
-            @extend ul;
+            list-style-type: none;
         }
 
         nav{
