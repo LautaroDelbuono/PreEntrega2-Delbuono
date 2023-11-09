@@ -1,4 +1,19 @@
 @import '../utilities/variables';
+.paginasproductos{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    p{
+        font-size: 1.5rem;
+        display: flex;
+        padding-bottom: 15px;
+        justify-content: space-around;
+    }
+}
+
+
 
 .remeras1
 img{
@@ -16,5 +31,5 @@ img{
 
 .remeras3{
     @extend .remeras1;
-    background-color: grey;
+    background-color: beige;
 }
