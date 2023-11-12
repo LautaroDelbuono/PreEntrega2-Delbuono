@@ -126,26 +126,17 @@ footer nav ul li a {
   justify-content: space-around;
   flex-direction: row;
 }
-.paginasproductos p {
-  font-size: 1.5rem;
-  display: flex;
-  padding-bottom: 15px;
-  justify-content: space-around;
-}
-
-.remeras1 img, .remeras3 img, .remeras2 img {
+.paginasproductos img {
   width: 90%;
   height: 750px;
   padding: 4px;
   background-color: black;
 }
-
-.remeras2 {
-  background-color: white;
-}
-
-.remeras3 {
-  background-color: beige;
+.paginasproductos p {
+  font-size: 1.5rem;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */

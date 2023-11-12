@@ -5,31 +5,17 @@
     justify-content: space-around;
     flex-direction: row;
 
+    img{
+        width: 90%;
+        height: 750px;
+        padding: 4px;
+        background-color: black;
+    }
+
     p{
         font-size: 1.5rem;
         display: flex;
         padding-bottom: 15px;
         justify-content: space-around;
     }
-}
-
-
-
-.remeras1
-img{
-    width: 90%;
-    height: 750px;
-    padding: 4px;
-    background-color: $fondo-negro;
-}
-
-
-.remeras2{
-    @extend .remeras1;
-    background-color: white;
-}
-
-.remeras3{
-    @extend .remeras1;
-    background-color: beige;
 }
