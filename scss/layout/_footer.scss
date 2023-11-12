@@ -11,8 +11,7 @@ footer{
         ul{
             li{
                 a{
-                    margin: 5px;
-                    text-decoration: none;
+                    @include config
                 }
             }
         }

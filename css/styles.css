@@ -42,7 +42,7 @@ header ul {
 header nav ul li a {
   margin: 5px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .portadas {
@@ -61,8 +61,9 @@ header nav ul li a {
   list-style-type: none;
 }
 .portadas nav ul li a {
-  font-size: 2rem;
+  margin: 5px;
   text-decoration: none;
+  font-size: 2rem;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -107,17 +108,7 @@ footer ul {
 footer nav ul li a {
   margin: 5px;
   text-decoration: none;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.parrafo {
   font-size: 2rem;
-  text-align: center;
 }
 
 .paginasproductos {
@@ -137,6 +128,17 @@ footer nav ul li a {
   display: flex;
   padding-bottom: 15px;
   justify-content: space-around;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.parrafo {
+  font-size: 2rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
